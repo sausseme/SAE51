@@ -1,3 +1,5 @@
+docker stop $(docker ps -q)
+
 docker run --rm -d \
 	-p 3307:3306\
 	-v vol-sql-demo:/var/lib/mysql \

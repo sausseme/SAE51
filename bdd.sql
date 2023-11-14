@@ -36,10 +36,10 @@ CREATE TABLE `Users` (
 
 CREATE TABLE `Maintenance` (
   `MaintenanceID` INT AUTO_INCREMENT PRIMARY KEY,
-  `Description` VARCHAR(250),
   `OrdinateurID` INT,
+  `Description` VARCHAR(250),
   `Action` VARCHAR(100),
-  `Date` TIMESTAMP
+  `DateAction` TIMESTAMP
 );
 
 ALTER TABLE `Logiciels_Installes` ADD FOREIGN KEY (`LogicielID`) REFERENCES `Logiciels` (`LogicielID`);

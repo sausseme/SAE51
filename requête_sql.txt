@@ -1,0 +1,12 @@
+SELECT * FROM Ordinateurs WHERE MarqueID = '2';
+SELECT * FROM Ordinateurs WHERE DateAchat BETWEEN "2028-01-01" AND "2030-01-01";
+SELECT * FROM Ordinateurs WHERE MarqueID = '2' AND DateAchat BETWEEN "2029-01-01" AND "2030-01-01";
+SELECT COUNT(*) FROM Ordinateur WHERE Marque = '3';
+SELECT * FROM Ordinateurs WHERE RAM BETWEEN "4" AND "8";
+SELECT * FROM Logiciels_Installes WHERE OrdinateursID = "84";
+SELECT Logiciels_Installes.* FROM Logiciels_Installes
+JOIN Machines ON Logiciels_Installes.OrdinateursID = Ordinateurs.OrdinateurID
+JOIN Users ON Ordinateurs.UsersID = Users.UserID
+WHERE User.Nom = 'Dubois';
+
+

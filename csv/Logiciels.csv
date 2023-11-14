@@ -1,44 +1,21 @@
-LogicielID,LogicielName,Version,LicenseKey
-1,Microsoft Office,2019,ABC123
-2,Adobe Photoshop,2022,XYZ456
-3,Google Chrome,100.0,LMN789
-4,Windows 10,Pro,NOP101
-5,Visual Studio Code,1.60.2,PQR202
-6,AutoCAD,2021,DEF777
-7,Adobe Illustrator,CC 2021,JKL555
-8,Mozilla Firefox,97.0,UVW303
-9,Windows 11,Home,RST404
-10,Adobe Premiere Pro,2022,MNO999
-11,Google Drive,1.49.308,XYZ222
-12,Matlab,R2022b,GHI123
-13,IntelliJ IDEA,2021.3,ABC888
-14,Sublime Text,4.0,LKJ777
-15,Visual Studio,2019,OPQ456
-16,Blender,2.93,PST555
-17,Notepad++,8.3,THU101
-18,AutoCAD LT,2022,VWX222
-19,SketchUp,2022,DEF333
-20,Microsoft Edge,99.0,JKL789
-21,Eclipse,2022-09,MNO222
-22,PyCharm,2021.3,XYZ333
-23,NetBeans,12.5,GHI555
-24,Git,2.33,PQR101
-25,Android Studio,4.2,ABC777
-26,Inkscape,1.1,LKJ222
-27,Unity,2021.2,UVW888
-28,RStudio,2021.09,RST222
-29,Postman,9.11,OPQ101
-30,Atom,1.58,PST111
-31,CorelDRAW,2022,THU555
-32,WinRAR,6.02,VWX777
-33,MySQL Workbench,8.0,DEF101
-34,iTunes,12.11,JKL222
-35,VLC Media Player,3.0,MNO101
-36,Discord,1.0,XYZ777
-37,GIMP,2.10,GHI111
-38,FileZilla,3.55,PQR222
-39,Zoom,5.7,ABC101
-40,TeamViewer,15.23,LKJ111
-41,LibreOffice,7.2,UVW101
-42,OneDrive,22.084,DEF777
-43,WinZip,27,JKL101
+LogicielID,Nom
+1,Microsoft Office
+2,Adobe Photoshop
+3,Google Chrome
+4,Visual Studio Code
+5,Adobe Illustrator
+6,Mozilla Firefox
+7,Adobe Premiere Pro
+8,Visual Studio
+9,Notepad++
+10,SketchUp
+11,Microsoft Edge
+12,MySQL Workbench
+13,VLC Media Player
+14,Discord
+15,Zoom
+16,TeamViewer
+17,LibreOffice
+18,OneDrive
+19,WinZip
+20,Outlook

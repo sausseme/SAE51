@@ -7,3 +7,5 @@ sleep 5
 ./insertion.sh
 
 ./connect.sh
+
+./requetes_sql.sh
